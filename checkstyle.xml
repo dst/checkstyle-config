@@ -144,6 +144,11 @@
         <module name="EmptyForIteratorPad"/>
         <module name="MethodParamPad"/>
         <module name="NoWhitespaceAfter"/>
+        <!-- Allow waitspace in array initialization new String { "aaa" } and in casting (String) str
+        <module name="NoWhitespaceAfter">
+            <property name="tokens" value="BNOT,DEC,DOT,INC,LNOT,UNARY_MINUS,UNARY_PLUS"/>
+        </module>
+        -->
         <module name="NoWhitespaceBefore"/>
         <module name="OperatorWrap"/>
         <module name="ParenPad"/>
