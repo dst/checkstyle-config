@@ -1,8 +1,17 @@
-# Checkstyle
+# CheckStyle
 Static code analyzer for Java
 
 ## Command line
 	$ checkstyle -c checkstyle.xml -r dir
+
+## Plugin for Intellij
+CheckStyle-IDEA
+
+Configuration:
+
+	Settings -> Other Settings -> CheckStyle
+	Add new Configuration File
+	Choose remote file: https://raw.githubusercontent.com/dst/checkstyle-config/master/checkstyle.xml
 
 ## Plugin for Eclipse
 http://eclipse-cs.sf.net/update/
