@@ -5,6 +5,11 @@
     "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
 
 <suppressions>
-    <!-- Generated meta model files (*/model/*_.java)-->
+    <!-- Turn of some checks for test code -->
+    <suppress checks="Javadoc" files=".*[\\/]src[\\/]test[\\/]"/>
+    <suppress checks="MagicNumber" files=".*[\\/]src[\\/]test[\\/]"/>
+    <suppress checks="ParameterNumber" files=".*[\\/]src[\\/]test[\\/]"/>
+
+    <!-- Turn off all checks for generated meta model files -->
     <suppress checks="." files=".*[\\/]model[\\/][a-zA-Z]*_\.java"/>
 </suppressions>
