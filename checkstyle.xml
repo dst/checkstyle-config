@@ -70,6 +70,11 @@
        <property name="message" value="Line has trailing spaces."/>
     </module>
 
+    <!-- Specify which location/file/directory should not be checked -->
+    <module name="SuppressionFilter">
+        <property name="file" value="checkstyle_suppress.xml"/>
+    </module>
+
     <module name="TreeWalker">
 
         <!-- Checks for Javadoc comments.                     -->
