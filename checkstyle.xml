@@ -32,7 +32,7 @@
 
 <module name="Checker">
 	<property name="severity" value="warning"/>
-	
+
     <!--
         If you set the basedir property below, then all reported file
         names will be relative to the specified directory. See
@@ -48,11 +48,11 @@
     <!-- Checks that property files contain the same keys.         -->
     <!-- See http://checkstyle.sf.net/config_misc.html#Translation -->
     <module name="Translation"/>
-    
+
     <!-- Checks for Size Violations.                    -->
     <!-- See http://checkstyle.sf.net/config_sizes.html -->
     <module name="FileLength"/>
-    
+
     <!-- Checks for whitespace                               -->
     <!-- See http://checkstyle.sf.net/config_whitespace.html -->
     <module name="FileTabCharacter"/>
@@ -61,7 +61,7 @@
     <!-- See http://checkstyle.sf.net/config_misc.html -->
     <module name="RegexpSingleline">
        <property name="format" value="\s+$"/>
-       <!-- not ideal workoround for white-space after * in javadocs
+       <!-- Not perfect workaround for white space after * in javadocs
        <property name="format" value="^(?!\s*(?:\*\s+)?$)(.*?)\s+$"/>
        -->
        <property name="minimum" value="0"/>
@@ -129,7 +129,7 @@
         <module name="EmptyForIteratorPad"/>
         <module name="MethodParamPad"/>
         <module name="NoWhitespaceAfter"/>
-        <!-- Allow waitspace in array initialization new String { "aaa" } and in casting (String) str
+        <!-- Allow white space in array initialization new String { "aaa" } and in casting (String) str
         <module name="NoWhitespaceAfter">
             <property name="tokens" value="BNOT,DEC,DOT,INC,LNOT,UNARY_MINUS,UNARY_PLUS"/>
         </module>
