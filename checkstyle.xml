@@ -61,9 +61,6 @@
     <!-- See http://checkstyle.sf.net/config_misc.html -->
     <module name="RegexpSingleline">
        <property name="format" value="\s+$"/>
-       <!-- Not perfect workaround for white space after * in javadocs
-       <property name="format" value="^(?!\s*(?:\*\s+)?$)(.*?)\s+$"/>
-       -->
        <property name="minimum" value="0"/>
        <property name="maximum" value="0"/>
        <property name="message" value="Line has trailing spaces."/>
